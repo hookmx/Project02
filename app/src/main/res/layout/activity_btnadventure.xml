@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    tools:context=".btnadventure">
+
+    <TextView
+        android:id="@+id/Adtext"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:text="   Adventure"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/Ad3"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/adv"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageView
+        android:id="@+id/Ad5"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/adven"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="507dp" />
+
+    <ImageView
+        android:id="@+id/Ad6"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/advent"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <ImageView
+        android:id="@+id/Ad4"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/adve"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <ImageView
+        android:id="@+id/Ad1"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/screen_shot_2563_06_15_at_4_02_33_pm"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <ImageView
+        android:id="@+id/Ad2"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ad"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <ImageButton
+        android:id="@+id/backad"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#1c1c1c"
+        app:srcCompat="@drawable/abc_vector_test"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
